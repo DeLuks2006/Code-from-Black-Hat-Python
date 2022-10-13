@@ -12,4 +12,4 @@ So far:
 - [x] TCP-Server
 - [ ] NetCat.py
 
-:warning: After finishing the NetCat I will take a small brake and work on some other books, because I dont fully understand some of the code...  :warning:
+:warning: After finishing the NetCat, I will take a small brake and work on some other books/projects, because I dont fully understand some of the code...  :warning:
