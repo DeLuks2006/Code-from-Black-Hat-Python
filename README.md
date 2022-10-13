@@ -10,6 +10,6 @@ So far:
 - [x] TCP-Client
 - [x] UDP-Client
 - [x] TCP-Server
-- [ ] NetCat.py
+- [ ] NetCat
 
-:warning: After finishing the NetCat, I will take a small brake and work on some other books/projects, because I don't fully understand some of the code.  :warning:
+:warning: After finishing the NetCat, I will take a small brake and study some other books, because I don't fully understand some of the code. :I :warning:
