@@ -11,3 +11,5 @@ So far:
 - [x] UDP-Client
 - [x] TCP-Server
 - [ ] NetCat.py
+
+:warning: After finishing the NetCat I will take a small brake and work on some other books, because I dont fully understand some of the code...  :warning:
