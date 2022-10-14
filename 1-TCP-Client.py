@@ -1,6 +1,6 @@
 #TCP Client
 
-# Countless times during penetration tests, we (the authors) have needed to 
+# Countless times during penetration tests, we needed to 
 # whip up a TCP client to test for services, send garbage data, fuzz, or per-
 # form any number of other tasks. If you are working within the confines of 
 # large enterprise environments, you won’t have the luxury of using network
