@@ -11,6 +11,6 @@ So far:
 - [x] TCP-Client
 - [x] UDP-Client
 - [x] TCP-Server
-- [ ] NetCat
+- [ ] NetCat (uploaded but kinda broken (I will try to fix it tho in the near future))
 
 :warning: After finishing the NetCat, I will take a small brake and study some other books, because I don't fully understand some of the code. :I :warning:
