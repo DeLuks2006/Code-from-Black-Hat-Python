@@ -1,3 +1,4 @@
+#WARNING netcat.py is still broken for some reason!!!
 #replaces NetCat because it is mostly locked 
 
 # With it, you can 
@@ -48,16 +49,16 @@ def execute(cmd):
 
 #see here (skip to Main block to see code written before these lines)
 class NetCat:
-    def __init__(self, args, buffer=None): #1 # We initialize the NetCat object with the arguments from the command line and buffer... 
-        self.args = args
-        self.buffer = buffer 
-        self.socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM) #2 # ...and then create the socket object
-        self.socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
-        def run(self): # The run method, which is the entry point for managing the NetCat object, is pretty simple (lie): it delegates execution to two methods.
-            if self.args.listen: # If we're setting up a listener, we call the listen method.
-                self.listen() #3 # 
-            else:
-                self.send() #4 # Otherwise we call the send method
+    def __init__(self, args, buffer=None): #1 # We initialize the NetCat object with the arguments from the command line and buffer...
+            self.args = args        
+            self.buffer = buffer 
+            self.socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM) #2 # ...and then create the socket object
+            self.socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+    def run(self): # The run method, which is the entry point for managing the NetCat object, is pretty simple (lie): it delegates execution to two methods.
+        if self.args.listen: # If we're setting up a listener, we call the listen method.
+            self.listen()
+        else:
+            self.send() #4 # Otherwise we call the send method
 
 #Now lets write the that send method:
     def send(self):
