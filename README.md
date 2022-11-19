@@ -1,8 +1,12 @@
 # Code-from-Black-Hat-Python
 
 ## This Repo is full of Code from the book "Black-Hat-Python" by Tim Arnold.
-   The Book "Black Hat Python" by Tim Arnold is a begginner friendly book that features alot of  pentesting projects that are begginer friendly and somewhat easy to understand. 
+<a href="url"><img src="https://m.media-amazon.com/images/I/A1rHREAREhL.jpg" align="right" height="160" width="110" ></a>
+   The Book "Black Hat Python" by Tim Arnold is a begginner friendly book that features alot of pentesting projects that are begginer friendly and somewhat easy to understand. 
+
+The book is avaible on Amazon here: https://www.amazon.de/Black-Hat-Python-2nd-Programming/dp/1718501129
 ###### :warning: Note: I copied some (if not most of the bigger texts) of the text from the book directly into the code! :warning:
+
 ## Projects
 ###### I'll maybe also add a few other projects here but for now it's just the code from the Book :+1:
 
